@@ -1,0 +1,13 @@
+input {
+  margin-bottom: 1rem;
+}
+label,
+input,
+a {
+  display: block;
+}
+#barra-busqueda input,
+#barra-busqueda button,
+#atajos .icono {
+  display: inline;
+}
