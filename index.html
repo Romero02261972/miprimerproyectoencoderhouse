@@ -1,149 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./assets/img/favicon.png"
-      type="image/x-icon"
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
+  <link
+   rel="shortcut icon"
+   href="./assets/img/two-hearts.png"
+   type="image/x-icon"
+  />
+  <!-- este es el favicon ¿está bien? -->
+  <meta name="author" content="Pilar Romero" />
+  <title>Mi primer proyecto de coderhouse</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+ </head>
+
+ <body>
+  <!--Inicio de la cabecera-->
+  <header>
+   <section>
+    <img
+     src="./assets/img/two-hearts.png"
+     width="65"
+     alt="Logo de Mi primer proyecto de coderhouse"
     />
-    <meta name="author" content="Pilar Romero">
-    <title>Mi primer proyecto de coderhouse</title>
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-  </head>
+   </section>
+   <section id="barra-busqueda">
+    <h1>Mi primer proyecto de coderhouse</h1>
+    <input type="text" id="busqueda" name="q" />
+    <button type="submit">
+     <img src="./assets/img/lupa.png" width="15" />
+     <!-- TODO: que al dar click en la lupa busque dentro de todo el sitio -->
+    </button>
+   </section>
+   <section id="atajos">
+    <a href="./registro.html" class="icono">
+     <img src="./assets/img/profile.png" width="15" alt="favoritos"
+    /></a>
+    <!-- TODO: que al tocar el icono se despliegue el formulario para iniciar con nombre y contraseña o dar la opción para registrarse y 
+      vincularlo a la página de registro creo que por el momento sólo podré vincularlo a la página de registro-->
+    <!-- <form>
+     <label for="nombre">Nombre:</label>
+     <input type="text" id="nombre" name="nombre" />
+     <label for="password"> contraseña:</label>
+     <input type="text" id="password" name="password" />
+    </form>    lo comenté porque creo que es mejor quitarlo y que el ícono del usuario me lleve directo a la página de registro por ahora-->
+    <a href="#">Forgot password?</a>
+    <!-- TODO: al dar click en forgot password vincular o desplegar el formulario para recuperación de contraseña -->
+    <a href="#" class="icono">
+     <img src="./assets/img/heart.png" width="15" alt="favoritos"
+    /></a>
+    <a href="#" class="icono">
+     <img src="./assets/img/shopping-cart.png" width="15"
+      alt="carrito de compras"
+    /></a>
+   </section>
+   <!-- TODO: agregar link a recuperación de contraseña -->
+  </header>
+  <!--Fin de la cabecera-->
 
-  <body>
-    <!--Inicio de la cabecera-->
-    <header>
-      <section>
-        <img
-          src="./assets/img/logo.png"
-          alt="Logo de Mi primer proyecto de coderhouse"
-        />
-      </section>
-      <section id="barra-busqueda">
-        <h1>Mi primer proyecto de coderhouse</h1>
-        <input type="text" id="busqueda" name="q" />
-        <button type="submit">
-          <img src="./assets/img/lupa.png" width="15" />
-        </button>
-      </section>
-      <section id="atajos">
-        <!-- TODO: Poner el icono del usuario. -->
-        <form>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" />
-          <label for="password"> contraseña:</label>
-          <input type="text" id="password" name="password" />
-          <a href="#">Forgot password?</a>
-        </form>
-        <a href="#" class="icono"
-          ><img src="./assets/img/heart.png" width="15" alt="favoritos"
-        /></a>
-        <a href="#" class="icono"
-          ><img
-            src="./assets/img/shopping-cart.png"
-            width="15"
-            alt="carrito de compras"
-        /></a>
-      </section>
-      <!-- TODO: agregar link a recuperación de contraseña -->
-    </header>
-    <!--Fin de la cabecera-->
+  <main>
+   <section>
+    <h2>Secciones</h2>
+    <nav>
+     <ul>
+      <li><a href="./blog-moda.html">Moda</a></li>
+      <li><a href="#">Salud</a></li>
+      <li><a href="#">Tecnología</a></li>
+      <li><a href="#">Tiempo Libre</a></li>
+     </ul>
+    </nav>
+   </section>
+   <section>
+    <h3>Título del artículo</h3>
+    <p>
+     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse expedita
+     illo magni aliquam aperiam consequuntu laborum voluptate dolore id
+     accusantium modi illum laboriosam est temporibus, veritatis commodi nemo,
+     sed exercitationem.
+    </p>
+    <a href="#">Leer más</a>
+    <!-- TODO: Poner el link al artículo -->
 
-    <main>
-      <section>
-        <h2>Secciones</h2>
-        <nav>
-          <ul>
-            <li><a href="#">Moda</a></li>
-            <li><a href="#">Salud</a></li>
-            <li><a href="#">Tecnología</a></li>
-            <li><a href="#">Tiempo Libre</a></li>
-          </ul>
-        </nav>
-      </section>
-      <section>
-        <h3>Título del artículo</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-          expedita illo magni aliquam aperiam consequuntu laborum voluptate
-          dolore id accusantium modi illum laboriosam est temporibus, veritatis
-          commodi nemo, sed exercitationem.
-        </p>
-        <a href="#">Leer más</a>
-        <!-- TODO: Poner el link al artículo -->
+    <a href="#">Publicidad externa</a>
+    <!-- TODO: Poner el link a la publicidad externa -->
+    <h3>Título del artículo</h3>
+    <p>
+     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse expedita
+     illo magni aliquam aperiam consequuntu laborum voluptate dolore id
+     accusantium modi illum laboriosam est temporibus, veritatis commodi nemo,
+     sed exercitationem.
+    </p>
+    <a href="#">Leer más</a>
+    <!-- TODO: Poner el link al artículo -->
+   </section>
+   <section>
+    <a href="#"
+     ><img src="./assets/img/ofertas/bolsa.png" alt="Oferta Principal Moda"
+    /></a>
+    <a href="#"
+     ><img src="./assets/img/ofertas/pesas.png" alt="Oferta Principal Salud"
+    /></a>
+    <a href="#"
+     ><img
+      src="./assets/img/ofertas/celular.png"
+      alt="Oferta Principal Tecnología"
+    /></a>
+    <a href="#"
+     ><img src="./assets/img/ofertas/juegos.png" alt="Oferta Principal Juegos"
+    /></a>
+   </section>
+  </main>
+  <!--Aqui empieza el aside-->
+  <aside>
+   <video width="300" controls>
+    <source src="./assets/videos/ciudad.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+   </video>
+   <h4>Comentario breve</h4>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam maiores
+    laborum facere harum, repudiandae dolores officiis blanditiis assum?
+    <!-- TODO: BORRAR EL LEER MAS EN EL WIREFRAME -->
+   </p>
+   <a href="#">Publicidad externa</a>
+   <!-- TODO: Poner el link a la publicidad externa -->
+  </aside>
+  <!--Aquí termina el aside-->
+  <footer>
+   <p>Contacto 0000-00-00</p>
+   <p>C. Alamos 21 Col. Florida, Ciudad de México, México.</p>
+   <section id="redes-sociales">
+    <a href="#" class="icono">
+     <img src="./assets/img/yahoo.png" alt="Correo de yahoo" width="15"
+    /></a>
+    <a href="#" class="icono">
+     <img src="./assets/img/gmail.png" alt="Correo de gmail" width="15"
+    /></a>
+    <a href="#" class="icono">
+     <img src="./assets/img/whatsapp.png" alt="whatsapp" width="15"
+    /></a>
+    <a href="#" class="icono">
+     <img src="./assets/img/tik-tok.png" alt="tiktok" width="15"
+    /></a>
+    <a href="#" class="icono">
+     <img src="./assets/img/instagram.png" alt="instagram" width="15"
+    /></a>
+    <a href="#" class="icono">
+     <img src="./assets/img/facebook.png" alt="facebook" width="15"
+    /></a>
+   </section>
 
-        <a href="#">Publicidad externa</a>
-        <!-- TODO: Poner el link a la publicidad externa -->
-        <h3>Título del artículo</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-          expedita illo magni aliquam aperiam consequuntu laborum voluptate
-          dolore id accusantium modi illum laboriosam est temporibus, veritatis
-          commodi nemo, sed exercitationem.
-        </p>
-        <a href="#">Leer más</a>
-        <!-- TODO: Poner el link al artículo -->
-      </section>
-      <section>
-        <a href="#"
-          ><img
-            src="./assets/img/ofertas/bolsa.png"
-            alt="Oferta Principal Moda"
-        /></a>
-        <a href="#"
-          ><img
-            src="./assets/img/ofertas/pesas.png"
-            alt="Oferta Principal Salud"
-        /></a>
-        <a href="#"
-          ><img
-            src="./assets/img/ofertas/celular.png"
-            alt="Oferta Principal Tecnología"
-        /></a>
-        <a href="#"
-          ><img
-            src="./assets/img/ofertas/juegos.png"
-            alt="Oferta Principal Juegos"
-        /></a>
-      </section>
-      <!--Aqui empieza el aside-->
-      <aside>
-        <video width="320" height="240" controls>
-          <source src="#" type="video/mp4" />
-          <source src="#" type="video/ogg" />
-          Your browser does not support the video tag.
-        </video>
-        <h4>Comentario breve</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam
-          maiores laborum facere harum, repudiandae dolores officiis blanditiis
-          assum?
-        </p>
-        <a href="#">Leer más</a>
-        <!--TODO: poner el link al artículo completo  -->
-
-        <a href="#">Publicidad externa</a>
-        <!-- TODO: Poner el link a la publicidad externa -->
-      </aside>
-      <!--Aquí termina el aside-->
-      <footer>
-        <p>Contacto 0000-00-00</p>
-        <p>adress</p>
-        <a href="#"
-          ><img src="./assets/img/yahoo.png" alt="Correo de yahoo"
-        /></a>
-        <a href="#"
-          ><img src="./assets/img/gmail.png" alt="Correo de gmail"
-        /></a>
-        <a href="#"><img src="./assets/img/whatsapp.png" alt="whatsapp" /></a>
-        <a href="#"><img src="./assets/img/tiktok.png" alt="tiktok" /></a>
-        <a href="#"><img src="./assets/img/instagram.png" alt="instagram" /></a>
-        <a href="#"><img src="./assets/img/facebook.png" alt="facebook" /></a>
-      </footer>
-    </main>
-  </body>
+   <!--TODO: VINCULARLOS A CUENTAS DE REDES SOCIALES-->
+  </footer>
+ </body>
 </html>
